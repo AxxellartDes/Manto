@@ -1,0 +1,76 @@
+.bg-light {
+    background-color: #ccccccd4 !important;
+}
+
+.dropdown-menu {
+    background-color: #9e9e9e !important;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #000000 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #000000 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000 !important;
+}
+
+.main-header {
+    margin-top: 5%;
+    background-image: url(../images/portada2.jpg);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 100%;
+    margin-bottom: 5%;
+}
+
+.bg-light {
+    background-color: #ececec!important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+.icon {
+    color: gray !important;
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+.glass {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.70);
+    box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.842);
+    backdrop-filter: blur(4px);
+}
+
+.fondo_tarjeta {
+    background-image: url(../images/card_2.jpg);
+    background-size: contain;
+    background-repeat: round;
+}
